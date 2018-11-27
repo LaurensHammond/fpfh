@@ -1,0 +1,212 @@
+body
+{	background-image: url('patterns/black_paper.png'); /* This pattern is downloaded from www.subtlepatterns.com If you need more, that's where to get'em.*/
+	color:#ffffff;
+	margin:0;
+}
+.container
+{	
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.logo
+{
+	width: 1000px;
+	height:320px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#flag
+{
+	width:690px;
+	height:280px;
+	margin:20px;
+	float:left;
+}
+
+#nazwa
+{	width:230px;
+	height:280px;	
+	padding:20px;
+	font-size:30px;
+	text-align:right;
+	font-family: 'Poiret One', cursive;
+	font-size:40px;
+	float:left;
+	line-height:160%;
+}
+.belt
+{	width:100%;
+	min-height:130px;
+}
+.beltmenu
+{	width:990px;
+	height:130px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.cliche
+{	
+	font-family:'Pirata One';
+	width:178px;
+	height:53px;
+	background-image:url('klisza.png');
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:42px;
+	padding-bottom:35px;
+	font-size:36px;
+	text-align:center;
+}
+.cliche:hover
+{	font-size:38px;
+
+}
+
+
+#menu1
+{	float:left;
+	width:168px;
+	padding:9px;
+	margin-top:20px;
+	margin-left:20px;
+}
+#main
+{	width: 700px;
+	min-height: 610px;
+	margin-top: 20px;
+	margin-bottom:20px;
+	background-image: url('patterns/green_cup.png'); /* This pattern is downloaded from www.subtlepatterns.com If you need more, that's where to get'em.*/
+	float:left;
+		border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	font-weight: bold;
+	font-family: 'Times New Roman CE';
+
+	font-size:20px;
+	padding:40px;
+	text-align:justify;
+}
+.kafel
+{	width:150px;
+    height:55px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-bottom:20px;
+	font-family:'Lobster';
+	font-size:23px;
+	text-align:center;
+	padding-top:25px;
+
+}
+.kafel:hover
+{	font-size:25px;
+}
+#footer
+{
+	width:1000px;
+	min-height:40px;
+	background-color:black;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:20px;
+
+}
+.footer1
+{	width:30px;
+	height:30px;
+	margin:5px;
+	float:left;
+}
+.footer2
+{ 	width:900px;
+	margin:10px;
+	float:left;
+	text-align:center;
+}
+
+.sticky
+{
+	width:100%;
+	position: fixed;
+	left:0;
+	top: 0;
+	z-index: 100;
+}
+a
+{	text-decoration:none;
+	color:white;
+}
+ol
+{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	font-size:32px;
+}
+ol:hover
+{	font-size:34px;
+	
+}
+ol:hover > ul
+{	display: block;
+}
+
+ol > ul 
+{	width:100%;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	background-color:#000000;
+	margin-top:15px;
+	position: relative;
+	z-index:100;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	display:none;
+}
+ol > ul > li
+{	padding:10px;
+	padding-left:20px;
+	font-size:20px;
+	font-family:'Inconsolata';
+	text-align:left;
+	border-top: 1px dashed #333333;
+		border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+ol > ul > li:hover
+{
+	background-color:#111111;
+}
+ol > ul > li:first-child
+{	border-top:none;
+}
+ol > ul > li:last-child:hover
+{	font-size:20px;
+}
+#main > img
+{	margin:15px;
+}
+.akt
+{	padding:20px;
+	border-bottom: 1px dashed #333333;
+	text-align:justify;
+}
+.akt:last-child
+{	border-bottom:none;
+}
+.zdj
+{	width:145px;
+	margin:10px;
+	float:left;
+
+}
